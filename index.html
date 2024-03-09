@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo de la web -->
+    <title>Web Jim Lozano</title>
+    <!-- Esta es la importación de nuestro archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- https://boxicons.com/ -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- https://remixicon.com/ -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&family=Junge&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon del logo -->
+</head>
+
+<body>
+
+    <!-- Esta sección es la cabecera de la página web la cual tendra logo y barra de navegación -->
+    <header>
+        <!-- Logo -->
+        <img class="logo" src="assets/imgs/logo.png" alt="logo">
+        <!-- Truco para que le botón sea clickeable sin usar JAVASCRIPT -->
+        <input type="checkbox" name="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menuIconAction">
+            <div class='bx bx-menu' id="menuIcon"></div>
+        </label>
+
+        <ul class="navList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+    </header>
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="heroText">
+            <h1>Jim Kevin Lozano Ruiz</h1>
+            <h2>Tech Support Agent Bilingüe</h2>
+            <p> 
+                Técnico en mantenimiento de equipos de cómputo, con conocimiento soporte a aplicaciones, búsquedas en
+                PostgreSQL, HTML, CSS. Buena aptitud de trabajo, relaciones interpersonales, liderazgo, comunicación
+                asertiva, trabajo en equipo y adaptabilidad al cambio.
+            </p>
+            <a href="assets/Documents/HV-Jim Lozano.pdf" target="_blank">CV</a>
+            <a href="https://github.com/Jimjk19?tab=projects" target="_blank" class="project"><i
+                    class="ri-git-repository-line"> Mirá mis proyectos</i></a>
+        </div>
+
+        <div class="heroImg">
+            <img src="/assets/imgs/imagen-proyecto.png" alt="jim lozano foto">
+        </div>
+    </section>
+
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/jim-kevin-lozano-ruiz-1102a5207" target="_blank"><i
+                class="ri-linkedin-box-line" title="linkedin"></i></a>
+        <a href="https://github.com/Jimjk19" target="_blank"><i class="ri-github-line" title="github"></i></a>
+    </div>
+
+    <div class="whatsapp">
+        <a href="https://wa.me/573188720024/?text=Me%20gusta%20tu%20perfil,%20me%20encuentro%20interesado."><i
+                class="ri-whatsapp-line" title="contactame al whatsapp"></i></a>
+    </div>
+</body>
+
+</html>
